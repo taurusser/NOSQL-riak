@@ -1,5 +1,3 @@
-#Riak ( Dynamo-inspirited
-
 ###简要背景介绍
 ---
 
@@ -15,8 +13,8 @@ Amazon.com
 * Cassandra  -> Fackbook [https://github.com/apache/cassandra]
 * Voldemort  -> Linkedin  [https://github.com/voldemort/voldemort]
 * beansDB     -> 豆瓣网     [https://github.com/douban/beansdb]
-* nuclear       -> 人人网 [闭源]
-* riak             -> Basho      [https://github.com/basho/riak]
+* Nuclear       -> 人人网 [闭源]
+* Riak             -> Basho      [https://github.com/basho/riak]
 
 ####CAP
 ![cap](http://cdn.infoqstatic.com/statics_s2_20150424-0221/resource/articles/nosql-dynamo/zh/resources/nosql_1.jpg)
