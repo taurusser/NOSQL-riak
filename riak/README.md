@@ -12,11 +12,11 @@ Amazon.com
 
 出自这篇在2007年，发表在Werner Vogels的博客上的论文,受这个论文的启发，
 出现了：
-1. Cassandra  -> Fackbook [https://github.com/apache/cassandra]
-2. Voldemort  -> Linkedin  [https://github.com/voldemort/voldemort]
-3. beansDB     -> 豆瓣网     [https://github.com/douban/beansdb]
-4. nuclear       -> 人人网 [闭源]
-5. riak             -> Basho      [https://github.com/basho/riak]
+* Cassandra  -> Fackbook [https://github.com/apache/cassandra]
+* Voldemort  -> Linkedin  [https://github.com/voldemort/voldemort]
+* beansDB     -> 豆瓣网     [https://github.com/douban/beansdb]
+* nuclear       -> 人人网 [闭源]
+* riak             -> Basho      [https://github.com/basho/riak]
 
 ####CAP
 ![cap](http://cdn.infoqstatic.com/statics_s2_20150424-0221/resource/articles/nosql-dynamo/zh/resources/nosql_1.jpg)
