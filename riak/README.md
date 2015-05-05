@@ -17,7 +17,7 @@ Amazon.com
 * Riak             -> Basho      [https://github.com/basho/riak]
 
 ####CAP
-![cap](http://cdn.infoqstatic.com/statics_s2_20150424-0221/resource/articles/nosql-dynamo/zh/resources/nosql_1.jpg)
+![cap](https://github.com/taurusser/Stuff/blob/master/riak/img/cap.jpg)
 
 * Consistency（一致性）：即数据一致性，简单的说，就是数据复制到了N台机器，如果有更新，要N机器的数据是一起更新的。
 * Availability（可用性）：好的响应性能，此项意思主要就是速度。
@@ -33,11 +33,11 @@ Amazon.com
 
 <b>一致性哈希环</b>
 
-![Consistent Hash's Ring](http://paperplanes-assets.s3.amazonaws.com/consistent-hashing.png)
+![Consistent Hash's Ring](https://github.com/taurusser/Stuff/blob/master/riak/img/consistent-hashing.png)
 
 <b>智能冗余</b>
 
-![Intelligent Replication](http://docs.basho.com/shared/2.1.0/images/riak-data-distribution.png)
+![Intelligent Replication](https://github.com/taurusser/Stuff/blob/master/riak/img/riak-data-distribution.png)
 
 ###从Riak的NRW看CAP法则
 
@@ -62,7 +62,7 @@ Amazon.com
 * Merkle tree
 
 提速数据变动时的查找：使用Merkle tree为数据建立索引，只要任意数据有变动，都将快速反馈出来。
-![Merkle tree](http://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Hash_Tree.svg/1280px-Hash_Tree.svg.png)
+![Merkle tree](https://github.com/taurusser/Stuff/blob/master/riak/img/Hash_Tree.svg.png)
 
 * Gossip Protocol
 
@@ -72,7 +72,7 @@ Amazon.com
 ##Riak
 <b>Buckets</b>
 
-![桶](http://www.carefundraisingsupplies.co.uk/images/categories/buckets.jpg)
+![桶](https://github.com/taurusser/Stuff/blob/master/riak/img/buckets.jpg)
 
 <b>Configuration</b>
 
@@ -114,7 +114,7 @@ curl http://localhost:8098/types/default/props | jq '.'
 
 #####  neo4j HA(High Architecture)
 
-![neo4j's HA](http://neo4j.com/docs/milestone/images/ha-architecture.svg)
+![neo4j's HA](https://github.com/taurusser/Stuff/blob/master/riak/img/ha-architecture.svg)
 
 to switch the creation of the GraphDatabaseService from GraphDatabaseFactory to HighlyAvailableGraphDatabaseFactory
 
@@ -159,7 +159,8 @@ neo4j (ver1.9.4, latest: 2.3.0, stable: 2.2.1) 的事务是只能影响某个物
 * Customized MapReduce func in Erlang
 
 ##### neo4j
-neo4j的查询非常屌，可以轻松地找出比如说，你朋友的朋友，通过一个单一规则的递归joins操作，可以从单一条记录，找出相关的条记录。
-neo4j的方式
+neo4j的查询非常屌，可以轻松地找出比如说，你朋友的朋友，通过一个单一规则的递归joins操作，可以从单一条记录，找出相关的N条记录。
+
+###### neo4j-ways
 * Tight Integration with Lucene
 * JTA (Java Transaction API) compliant XA( Distribution Transaction)
