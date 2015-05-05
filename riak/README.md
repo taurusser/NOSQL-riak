@@ -159,6 +159,7 @@ neo4j (ver1.9.4, latest: 2.3.0, stable: 2.2.1) 的事务是只能影响某个物
 * Secondary Indexs
 * Solr Search
 * Customized MapReduce func in Erlang
+
 ##### neo4j
 neo4j的查询非常屌，可以轻松地找出比如说，你朋友的朋友，通过一个单一规则的递归joins操作，可以从单一条记录，找出相关的条记录。
 neo4j的方式
