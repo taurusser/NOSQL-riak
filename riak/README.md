@@ -114,7 +114,7 @@ curl http://localhost:8098/types/default/props | jq '.'
 
 #####  neo4j HA(High Architecture)
 
-![neo4j's HA](https://github.com/taurusser/Stuff/blob/master/riak/img/ha-architecture.svg)
+![neo4j's HA](http://neo4j.com/docs/milestone/images/ha-architecture.svg)
 
 to switch the creation of the GraphDatabaseService from GraphDatabaseFactory to HighlyAvailableGraphDatabaseFactory
 
